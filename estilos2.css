@@ -1,0 +1,65 @@
+.body{
+border: 1px wh;
+}
+
+.menu  {
+    font-size: 40px;
+    font-family: monospace;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position:fixed;
+    left:170px;
+    top: 20px;
+}
+.logo {
+    width: 170px;
+    position:fixed;
+    top: 20px;
+}
+.redes-sociales{
+    font-size: 20px;
+    color: white;
+    padding: 30px 30px;
+    font-family: monospace;
+    font-style: italic;
+    position:fixed;
+    right: 110px; 
+    top: 65px;
+}    
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 10px;
+    border: 2px solid #fff9f9;
+    border-radius: 7px;
+    background: #fff9f9;
+    background: -webkitgradient(linear, left top, left bottom,(#fff9f9), (#fff9f9));
+    background: -moz-linear-gradient(top, #fff9f9, #fff9f9);
+    background: linear-gradient(to bottom, #fff9f9, #fff9f9);
+    -webkit-box-shadow: #fff9f9 0px 0px 9px 0px;
+    -moz-box-shadow: #fff9f9 0px 0px 9px 0px;
+    box-shadow: #fff9f9 0px 0px 9px 0px;
+    text-shadow: #000000 0px -1px 0px;
+    font: normal normal bold 15px arial;
+    color: #000000;
+    text-decoration: transparent;
+    position:fixed;
+    right: 60px;
+    top: 83px;
+}
+.button:hover,
+.button:active,
+.button:focus {
+    color: #000000;
+    text-decoration: none;
+}
+
+.button:hover,
+.button:active,
+.button:focus {
+    color: #000;
+    text-decoration: none;
+}
